@@ -1,7 +1,8 @@
 {
   "name": "humanizer-zh-tw",
   "owner": {
-    "name": "kevintsai1202"
+    "name": "Rufus Hsu",
+    "url": "https://github.com/rufushsu9987"
   },
   "metadata": {
     "description": "Humanizer-zh-TW：繁體中文文字潤飾與文字浮水印清理 plugin"

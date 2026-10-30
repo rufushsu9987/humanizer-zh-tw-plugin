@@ -1,6 +1,6 @@
 # humanizer-zh-tw（Claude Code plugin）
 
-把 [kevintsai1202/Humanizer-zh-TW](https://github.com/kevintsai1202/Humanizer-zh-TW) 的兩個 skill 包裝成 Claude Code plugin：
+由 [Rufus Hsu](https://github.com/rufushsu9987) 維護。改寫自 [kevintsai1202/Humanizer-zh-TW](https://github.com/kevintsai1202/Humanizer-zh-TW)，把其中兩個 skill 包裝成 Claude Code plugin；非原作者發布的官方版本。
 
 | 元件 | 名稱 | 用途 |
 | --- | --- | --- |
@@ -47,11 +47,20 @@ claude --plugin-dir ./humanizer-zh-tw
 /plugin install humanizer-zh-tw@humanizer-zh-tw
 ```
 
-### 推上 GitHub 後安裝
+### 從 GitHub 安裝
+
+在 Claude Code 對話中：
 
 ```text
-/plugin marketplace add <owner>/<repo>
+/plugin marketplace add rufushsu9987/humanizer-zh-tw-plugin
 /plugin install humanizer-zh-tw@humanizer-zh-tw
+```
+
+或在 shell 中：
+
+```bash
+claude plugin marketplace add rufushsu9987/humanizer-zh-tw-plugin
+claude plugin install humanizer-zh-tw@humanizer-zh-tw
 ```
 
 ## 需求

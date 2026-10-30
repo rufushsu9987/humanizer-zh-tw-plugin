@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "繁體中文文字潤飾（去 AI 味、刪除空話與公式化表達，保留事實與作者聲音），以及不可見 Unicode／文字型 AI provenance 檢查與清理。",
   "author": {
-    "name": "kevintsai1202"
+    "name": "Rufus Hsu",
+    "url": "https://github.com/rufushsu9987"
   },
-  "homepage": "https://github.com/kevintsai1202/Humanizer-zh-TW",
-  "repository": "https://github.com/kevintsai1202/Humanizer-zh-TW",
+  "homepage": "https://github.com/rufushsu9987/humanizer-zh-tw-plugin",
+  "repository": "https://github.com/rufushsu9987/humanizer-zh-tw-plugin",
   "license": "MIT",
   "keywords": ["chinese", "zh-tw", "traditional-chinese", "writing", "humanizer", "editing", "unicode", "watermark"]
 }

@@ -4,7 +4,7 @@
 
 ## 文字案例
 
-讓所使用的代理程式讀取 repo 的 `SKILL.md`，再逐條執行 [fixtures/cases.json](fixtures/cases.json) 中的 `request` 與 `input`。輸入和輸出分別存檔；不要把預期的改寫措辭提供給代理程式。
+讓所使用的代理程式讀取 `skills/humanizer-zh-tw/SKILL.md`（及其 `references/`），再逐條執行 [fixtures/cases.json](fixtures/cases.json) 中的 `request` 與 `input`。輸入和輸出分別存檔；不要把預期的改寫措辭提供給代理程式。
 
 18 條案例涵蓋：缺少數據時不補造指標；保留推測與歸因；保留獨立的列舉項目；正在與計畫；數量、範圍和否定；未知的施事者；作者樣本；引語；同時發生與前置條件；以及發布順序和授權條件。
 

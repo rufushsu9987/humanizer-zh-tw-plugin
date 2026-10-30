@@ -12,7 +12,7 @@
       "name": "humanizer-zh-tw",
       "source": "./",
       "description": "繁體中文文字潤飾（去 AI 味）與不可見 Unicode／文字 provenance 清理",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "writing"
     }
   ]

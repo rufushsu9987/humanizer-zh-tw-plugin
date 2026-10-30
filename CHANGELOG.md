@@ -1,5 +1,13 @@
 # 更新紀錄
 
+## 2026-10-30：plugin 1.1.0
+
+- 新增台灣用語檢查：`skills/humanizer-zh-tw/references/taiwan-wording.md` 列出直接替換的中國用語、依上下文判斷的詞（質量、程序、文件、數據等），以及網路口語的處理方式。程式碼、產品名稱與介面文字不替換。
+- 新增作者風格樣本：`/humanizer-zh-tw:humanize` 支援 `--sample <路徑>`，專案根目錄的 `.humanizer-voice.md` 可當預設樣本。只借鏡句長、用詞、語氣與標點，不移入樣本內容。
+- SKILL.md 從 465 行精簡為約 200 行：31 個檢查點改為一行索引，完整說明與範例移到 `references/patterns.md`，評分表移到 `references/scoring.md`。規則內容不變。
+- 移除潤飾完成後固定詢問是否檢查浮水印的步驟；只在使用者提到浮水印、不可見字元或偵測時才說明 companion skill。
+- 完整範例改為含中國用語的輸入，示範用語替換。
+
 ## 2026-09-25：同步上游 2026-09-23 修訂
 
 上游 [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) 在 2026-09-23 發布 commit `f4518a8`（fix: preserve meaning and author voice in Chinese rewrites），處理「文章改順了，意思卻變了」的問題。該修訂以 [blader/humanizer v3.0.0](https://github.com/blader/humanizer/blob/v3.0.0/SKILL.md) 與 [PR #39](https://github.com/op7418/Humanizer-zh/pull/39) 為基礎。本版依此繁體化，並保留本 repo 的在地化內容。

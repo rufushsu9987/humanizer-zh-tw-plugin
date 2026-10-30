@@ -1,6 +1,6 @@
 {
   "name": "humanizer-zh-tw",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "繁體中文文字潤飾（去 AI 味、刪除空話與公式化表達，保留事實與作者聲音），以及不可見 Unicode／文字型 AI provenance 檢查與清理。",
   "author": {
     "name": "Rufus Hsu",
